@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8"/>
+  <title>React Redux Boilerplate</title>
+  <% if(htmlWebpackPlugin.options.cordova) { %>
+    <script src="cordova.js"></script>
+    <script>window.isCordova=true</script>
+  <% } else{ %>
+    <script>window.isCordova=false</script>
+  <% } %>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body onload="onLoad()">
+<div id="app">
+</div>
+</body>
+</html>
